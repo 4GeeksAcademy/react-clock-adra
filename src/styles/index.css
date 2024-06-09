@@ -9,6 +9,7 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
 .bigClock {
     background: #000000;
     border-radius: 3%;
@@ -20,4 +21,11 @@
     padding: 10px;
     margin: 10px;
     border-radius: 15%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Oculta las flechas */
+    appearance: none;
+    margin: 0; /* Elimina el espacio reservado para las flechas */
 }
